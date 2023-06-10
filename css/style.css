@@ -290,27 +290,11 @@
   overflow: hidden;
 }
 
-.services__color::after {
-  content: url(../img/cards-small-pattern.svg);
-  z-index: -1;
-  position: absolute;
-  right: 30rem;
-  margin-top: -15rem;
-  width: 35rem;
-}
-
 .services {
   max-width: 150rem;
   padding: 0 12rem;
   margin: 0 auto;
   position: relative;
-}
-
-.services:before {
-  content: url(../img/services-pattern.svg);
-  z-index: -1;
-  position: absolute;
-  width: 50%;
 }
 
 .services--title__primary {
