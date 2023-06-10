@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    /* background-color: aquamarine; */
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: var(--text-color);
+    /* overflow: hidden !important; */
+    position: relative;
+    /* background-color: #333; */
+    /* background-color: antiquewhite; */
+}
+
+.container {
+    max-width: 150rem;
+    padding: 0 12rem;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+}
+
+.grid:not(:last-child) {
+    margin-bottom: 9.6rem;
+}
+
+.grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+    display: grid;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--center-v {
+    align-items: center;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+    font-weight: 600;
+    color: #333;
+    letter-spacing: -0.5px;
+}
+
+.heading-primary {
+    font-size: 6.4rem;
+    line-height: 7.2rem;
+    margin-bottom: 3.2rem;
+    color: var(--primary);
+}
+
+.heading-secondary {
+    font-size: 4.2rem;
+    line-height: 7.2rem;
+    margin-bottom: 9.6rem;
+}
+
+.heading-tertiary {
+    font-size: 2.8rem;
+    line-height: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1.5rem 3.5rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid var(--primary);
+    font-family: inherit;
+    transition: all 0.3s;
+    line-height: 2rem;
+    /* identical to box height */
+    width: 17rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns,
+.btns:link,
+.btns:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1.5rem 3.5rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid var(--primary);
+    font-family: inherit;
+    transition: all 0.3s;
+    line-height: 2rem;
+    /* identical to box height */
+    width: 17rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn--form {
+    background-color: var(--primary);
+    color: var(--white);
+    align-self: end;
+    padding: 1.2rem;
+}
