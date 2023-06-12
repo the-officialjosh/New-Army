@@ -75,6 +75,9 @@
     width: 50%;
     margin-right: -5rem;
   }
+  .testimonials-container {
+    padding: 9.6rem 3.2rem;
+  }
 }
 /**************************/
 /* BELOW 944px (Tablets) */
@@ -176,6 +179,13 @@
     display: flex;
     justify-content: center;
     height: 100%;
+  }
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
   }
   .subscribe--text-box {
     width: 90%;
@@ -287,6 +297,14 @@
   .partners--text__primary {
     font-size: 3.2rem;
     line-height: 3.6rem;
+  }
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
   }
   .footer {
     display: flex;
