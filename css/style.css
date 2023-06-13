@@ -670,11 +670,11 @@ blockquote:last-child {
 
 .section-testimonials blockquote {
   padding: 2%;
-  font-style: italic;
   line-height: 145%;
   position: relative;
   margin-top: 40px;
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 1.4rem;
 }
 
 .section-testimonials blockquote:before {

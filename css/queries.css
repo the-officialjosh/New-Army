@@ -318,6 +318,9 @@
     width: 90%;
     padding: 3rem 3rem;
   }
+  .section-testimonials blockquote {
+    font-size: 1.8rem;
+  }
   .section-testimonials {
     padding: 3rem 0;
   }
