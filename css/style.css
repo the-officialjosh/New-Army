@@ -216,12 +216,6 @@
   max-width: 70rem;
 }
 
-.header__title:after {
-  content: url(../img/hero-gragient.svg);
-  z-index: 1;
-  position: absolute;
-}
-
 .btn--text {
   color: var(--white);
   background-color: var(--primary);
