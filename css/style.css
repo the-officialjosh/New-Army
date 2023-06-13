@@ -500,11 +500,11 @@
 
 .footer {
   max-width: 150rem;
-  padding: 0 12rem;
+  padding: 0 8rem;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr;
-  column-gap: 10rem;
+  grid-template-columns: 2fr 1fr 1.5fr 1fr;
+  column-gap: 4.8rem;
   align-content: center;
   padding-bottom: 12.5rem;
 }
