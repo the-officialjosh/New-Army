@@ -7,14 +7,14 @@
 /* ?NAVIGATION */
 
 :root {
-  --primary: #065f46;
+  --primary: #00525d;
   --services: #bbf7d012;
   --background: #fff;
   --transparent-background: rgba(255, 255, 255, 0.836);
   --footer: #f4faf8;
   --all-in-one: #364fec38;
-  --security: #065f464d;
-  --accessibility: #27ae604d;
+  --security: #00525d4d;
+  --accessibility: #114f572f;
   --text-color: #454545;
   --white: #fff;
 }
@@ -32,7 +32,8 @@
 }
 
 .nav__logo {
-  height: 3.9rem;
+  /* height: 3.9rem; */
+  padding-top: 1rem;
   width: 10rem;
   transition: all 0.3s;
 }
@@ -432,7 +433,8 @@
   /* align-items: center; */
   gap: 3.1rem;
   padding: 3rem 15.4rem;
-  box-shadow: 0px -4px 8px rgba(193, 193, 193, 0.2), 0px 4px 8px rgba(193, 193, 193, 0.2);
+  box-shadow: 0px -4px 8px rgba(193, 193, 193, 0.2),
+    0px 4px 8px rgba(193, 193, 193, 0.2);
   border-radius: 10px;
   background-color: white !important;
   margin-bottom: -19rem;
@@ -594,11 +596,18 @@
   gap: 4.3rem;
   font-size: 1.2rem;
 }
-
+.footer--privacy-policies a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer--privacy-policies a:hover {
+  color: white;
+  background-color: #00525d;
+}
 .section-featured blockquote {
   margin: 1em 10px;
   padding: 0.5em 10px;
-  quotes: '\201C''\201D''\2018''\2019';
+  quotes: "\201C""\201D""\2018""\2019";
   font-weight: 500;
 }
 
@@ -651,7 +660,7 @@ blockquote:last-child {
 }
 
 .section-testimonials {
-  background-color: #d7f0e441;
+  background-color: #59626341;
   background-size: cover;
   color: #555;
   background-attachment: fixed;
@@ -669,7 +678,7 @@ blockquote:last-child {
 }
 
 .section-testimonials blockquote:before {
-  content: '\201C';
+  content: "\201C";
   font-family: sans-serif;
   font-size: 500%;
   display: block;
@@ -688,7 +697,7 @@ blockquote:last-child {
   display: block;
   font-size: 1.6rem;
   font-weight: 700;
-  color: #35b276;
+  color: #00525d;
   text-transform: uppercase;
   letter-spacing: 0.75px;
   line-height: 1;
@@ -705,7 +714,7 @@ svg {
 /**************************/
 
 .section-testimonials {
-  background-color: #35b27611;
+  background-color: #00525d11;
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items: center;
