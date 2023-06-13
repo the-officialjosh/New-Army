@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
     <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"
+      defer
+    ></script>
+
     <script src="js/script.js" defer></script>
     <title>Mowo</title>
   </head>
@@ -507,7 +512,12 @@
             Be among the first to hear about the latest offers when you
             subscribe to our newsletter.
           </div>
-          <form class="subscribe--input" name="sign-up">
+          <form
+            class="subscribe--input"
+            name="sign-up"
+            id="my-form"
+            method="post"
+          >
             <div class="subscribe--input__format">
               <input
                 id="email"
@@ -516,7 +526,7 @@
                 name="email"
                 required
               />
-              <button class="btn btn--form">Subscribe</button>
+              <button type="submit" class="btn btn--form">Subscribe</button>
             </div>
           </form>
         </div>

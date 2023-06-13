@@ -534,6 +534,8 @@
 }
 
 .footer--navigation-column {
+  padding-top: 5rem;
+
   display: flex;
   gap: 3.6rem;
   flex-direction: column;
@@ -547,6 +549,8 @@
 }
 
 .footer--contact-column {
+  padding-top: 5rem;
+
   display: flex;
   gap: 3.6rem;
   flex-direction: column;
@@ -564,6 +568,8 @@
 }
 
 .footer--social-column {
+  padding-top: 5rem;
+
   display: flex;
   gap: 3.6rem;
   flex-direction: column;
