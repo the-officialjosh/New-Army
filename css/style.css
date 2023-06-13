@@ -674,8 +674,7 @@ blockquote:last-child {
   line-height: 145%;
   position: relative;
   margin-top: 40px;
-  font-weight: 300;
-  font-size: 1.4rem;
+  font-weight: 400;
 }
 
 .section-testimonials blockquote:before {

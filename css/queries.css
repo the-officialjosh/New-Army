@@ -113,9 +113,7 @@
   .header__image {
     margin-left: -6rem;
   }
-  .services {
-    padding-left: 6rem;
-  }
+
   .menu-icon-wrapper {
     display: block;
   }
@@ -224,8 +222,12 @@
 /**************************/
 
 @media (max-width: 44em) {
+  .header__title {
+    padding: 2rem 2rem;
+  }
   .header__image {
     margin-left: -12rem;
+    padding: 2rem;
   }
   .services--grid {
     grid-template-columns: 1fr;
@@ -260,9 +262,7 @@
     padding-top: 8rem;
     padding-bottom: 4rem;
   }
-  .header__image {
-    margin-left: -16rem;
-  }
+
   .partners {
     padding-top: 8rem;
   }
@@ -273,18 +273,7 @@
     justify-content: center;
     align-items: center;
   }
-  .partners--logo__placed {
-    justify-self: center;
-    align-self: center;
-    height: 10rem;
-    width: 10rem;
-  }
-  .partners--logo__size {
-    width: 80%;
-  }
-  .partners--logo__sized {
-    width: 90%;
-  }
+
   .subscribe--input__format #email {
     padding-left: 1.1rem;
     font-size: 1.4rem;
@@ -472,15 +461,11 @@
   .cta-form {
     grid-template-columns: 1fr;
   }
-  .btn--form {
-    margin-top: 1.2rem;
-  }
+
   .section-testimonials {
     padding: 3rem 10rem;
   }
-  .btn--form {
-    width: 50%;
-  }
+
   .mapouter {
     display: flex;
     align-items: center;
@@ -507,6 +492,9 @@
   .btn-mobile-nav {
     display: block;
     z-index: 9999;
+  }
+  .testimonials-text {
+    font-size: 1.8rem;
   }
   .main-nav {
     background-color: rgba(255, 255, 255, 0.9);
@@ -541,10 +529,10 @@
     visibility: visible;
     transform: translateX(0);
   }
-  .nav-open .icon-mobile-nav[name='close-outline'] {
+  .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
   }
-  .nav-open .icon-mobile-nav[name='menu-outline'] {
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
   .main-nav-list {
@@ -725,6 +713,7 @@
   .testimonials {
     grid-template-columns: 1fr;
   }
+
   .cta {
     grid-template-columns: 1fr;
   }
