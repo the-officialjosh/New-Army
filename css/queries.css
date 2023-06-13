@@ -314,7 +314,10 @@
   .btn {
     width: 12rem;
   }
-
+  .subscribe--text-box {
+    width: 90%;
+    padding: 3rem 3rem;
+  }
   .section-testimonials {
     padding: 3rem 0;
   }
