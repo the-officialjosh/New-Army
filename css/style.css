@@ -391,8 +391,11 @@
   display: grid;
   gap: 3rem;
   grid-template-columns: repeat(4, 1fr);
+
   justify-content: center;
   place-items: center;
+
+  grid-auto-flow: dense;
 }
 
 .partners--logo__placed {
@@ -403,6 +406,13 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+.partners--logo__placed:nth-last-child(-n + 2) {
+  grid-column-start: 2; /* Start from the second column */
+}
+.partners--logo__placed:nth-last-child(-n + 1) {
+  grid-column-start: 3; /* Start from the second column */
 }
 .partners--logo__placed p {
   margin-top: -0.5rem;

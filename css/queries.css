@@ -273,7 +273,10 @@
     justify-content: center;
     align-items: center;
   }
-
+  .partners--logo__placed:nth-last-child(-n + 2),
+  .partners--logo__placed:nth-last-child(-n + 1) {
+    grid-column-start: auto; /* Reset the column placement */
+  }
   .subscribe--input__format #email {
     padding-left: 1.1rem;
     font-size: 1.4rem;
