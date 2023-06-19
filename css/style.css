@@ -611,6 +611,7 @@
 .footer--privacy-policies a {
   text-decoration: none;
   color: inherit;
+  text-decoration: underline;
 }
 .footer--privacy-policies a:hover {
   color: white;
