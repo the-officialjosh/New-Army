@@ -2,8 +2,16 @@ const btnEl = document.getElementById("menu-icon-trigger");
 const headerEl = document.querySelector(".header");
 btnEl.addEventListener("click", (e) => {
   e.preventDefault();
+
   document.querySelector(".menu-icon-wrapper").classList.toggle("open");
   headerEl.classList.toggle("open");
+  const links = document.querySelectorAll(".nav__link");
+  links.forEach((el) => {
+    el.addEventListener("click", () => {
+      document.querySelector(".menu-icon-wrapper").classList.remove("open");
+      headerEl.classList.remove("open");
+    });
+  });
 });
 
 const convertTitleCase = (title) => {
