@@ -481,7 +481,7 @@
   padding: 0.4rem;
 }
 
-.subscribe--input__format #email {
+.subscribe--input__format #mce-EMAIL {
   border: transparent;
   flex-grow: 2;
   padding-left: 3.1rem;
@@ -492,7 +492,7 @@
   padding-right: 2rem;
 }
 
-.subscribe--input__format #email:focus {
+.subscribe--input__format #mce-EMAIL:focus {
   outline: none;
 }
 
