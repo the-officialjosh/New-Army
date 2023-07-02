@@ -786,6 +786,8 @@ svg {
   gap: 9.6rem;
   flex-wrap: wrap;
   /* grid-template-columns: 1fr 1fr; */
+  max-width: 120rem;
+  margin: 0 auto;
 }
 .support__grid--item__icon img {
   max-width: 50rem;
