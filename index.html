@@ -6,16 +6,84 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- {/* Recommended Meta Tags */} -->
+    <meta charset="utf-8" />
+    <meta name="language" content="english" />
+    <meta httpEquiv="content-type" content="text/html" />
+    <meta name="author" content="{author}" />
+    <meta name="designer" content="{author}" />
+    <meta name="publisher" content="{author}" />
+
+    <!-- {/* Search Engine Optimization Meta Tags */} -->
+    <title>{title}</title>
+    <meta
+      name="description"
+      content="New Army Organization provides teens with the academic tools, contemporary skills, and
+              moral consciousness needed to become well-rounded, responsible,
+              and successful change agents."
+    />
+    <meta
+      name="keywords"
+      content="Software Engineer,Web Developer, Product Manager,Project Manager,Data Scientist,Computer Scientist,webGL,THREE.js, Sass"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta name="distribution" content="web" />
+    <!-- {/*  -->
+    <!-- Facebook Open Graph meta tags -->
+    <!-- documentation: https://developers.facebook.com/docs/sharing/opengraph */} -->
+    <meta property="og:title" content="New Army Organization" />
+    <meta property="og:type" content="site" />
+    <meta property="og:url" content=https://newarmy.org />
+    <meta property="og:image" content="https://newarmy.org/icons/share.png" />
+    <meta property="og:site_name" content="New Army Organization" />
+    <meta
+      property="og:description"
+      content="New Army Organization provides teens with the academic tools, contemporary skills, and
+              moral consciousness needed to become well-rounded, responsible,
+              and successful change agents."
+    />
+
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="16x16"
+      href="/icons/favicon-16x16.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="32x32"
+      href="/icons/favicon-32x32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/icons/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="/manifest.json" />
+
+    {/* Meta Tags for HTML pages on Mobile */} {/*
+    <meta name="format-detection" content="telephone=yes" />
+    <meta name="HandheldFriendly" content="true" />
+    */}
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1, initial-scale=1.0"
+    />
+    <meta name="theme-color" content="#000" />
+    <link rel="shortcut icon" href="/icons/favicon.ico" />
+    <!-- 
+    {/* 
+    Twitter Summary card
+      documentation: https://dev.twitter.com/cards/getting-started
+      Be sure validate your Twitter card markup on the documentation site. */} -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@the_newarmy" />
+    <meta name="twitter:creator" content="@the_newarmy" />
     <link rel="icon" href="img/favicon.png" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
     <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"
-      defer
-    ></script>
-
     <script src="js/script.js" defer></script>
     <title>New Army</title>
   </head>
@@ -34,7 +102,6 @@
               class="nav__logo"
               id="logo"
               designer="New Army"
-              data-version-number="3.0"
           /></a>
           <div class="nav__links--class">
             <ul class="nav__links">
@@ -79,9 +146,9 @@
 
         <!-- HERO SECTION -->
         <main class="header__title">
-          <div class="header__title--primary" data-aos="fade-up">
+          <h1 class="header__title--primary" data-aos="fade-up">
             We Help Teens Discover Purpose
-          </div>
+          </h1>
           <div
             class="header__title--secondary header--container"
             data-aos="fade-up"
