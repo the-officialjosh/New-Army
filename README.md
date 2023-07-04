@@ -2,7 +2,7 @@ Certainly! Here's an improved version of the README file for your New Army websi
 
 # New Army Organization
 
-![New Army Screenshot](/img/screenshot.jpeg)
+![New Army Screenshot](/img/screenshot.jpg)
 
 The New Army Organization website is a single-page application designed to empower teenagers and foster personal growth. Built using HTML, CSS, and JavaScript, this project showcases a passion for utilizing technology to make a positive impact.
 
