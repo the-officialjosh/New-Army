@@ -1,5 +1,3 @@
-Certainly! Here's an improved version of the README file for your New Army website:
-
 # New Army Organization
 
 ![New Army Screenshot](/img/screenshot.jpg)
